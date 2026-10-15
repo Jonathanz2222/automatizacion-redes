@@ -47,3 +47,29 @@ Se verificó el correcto funcionamiento de:
 ### Próximo paso
 
 Desarrollo e integración de scripts en Python, APIs y herramientas para la automatización de tareas sobre la infraestructura de red virtualizada.
+===
+## 3. Práctica 3: Primer programa de Python para representar información de dispositivos
+
+**Estado:** Completada.
+
+### Programa desarrollado
+
+- **Representación de dispositivos:** Creación de diccionarios en Python para almacenar información de dos routers (R1 y R2) y un switch (SW1).
+
+- **Información registrada:** Almacenamiento del nombre, tipo de dispositivo, dirección IP, dirección Loopback, interfaz, ubicación, marca y estado de funcionamiento.
+
+- **Organización de datos:** Uso de una lista llamada `dispositivos` para agrupar los equipos y facilitar su procesamiento.
+
+- **Procesamiento:** Implementación de un ciclo `for` para recorrer la lista y mostrar la información de cada dispositivo mediante `print()`.
+
+- **Verificación de estado:** Uso de una condición `if/else` para distinguir entre dispositivos activos y fuera de servicio.
+
+- **Función:** Creación de `mostrar_dispositivo()` para reutilizar las instrucciones de visualización y comprobación del estado de los equipos.
+
+- **Pruebas:** Verificación del funcionamiento del programa, incluyendo la modificación temporal del estado de SW1 y la restauración de su valor original.
+
+- **Documentación:** Registro del propósito, conceptos utilizados, dispositivos representados, evidencias, problemas y soluciones, y conclusión en `docs/practica-03/README.md`.
+
+### Próximo paso
+
+Desarrollo de programas en Python que permitan procesar información de la infraestructura de red, realizar consultas sobre dispositivos y avanzar hacia la automatización de tareas de administración y verificación de la red simulada en GNS3.
